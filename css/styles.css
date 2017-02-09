@@ -22,7 +22,7 @@ h1.panel-title {
   font-style: italic;
 }
 
-img {
+.panel img {
   width:85%;
   margin-left:auto;
   margin-right: auto;
@@ -31,4 +31,14 @@ img {
   margin-bottom: 2%;
   border: 5px 5px 5px gray;
   border-radius: 15px;
+}
+.jumbotron {
+  background-image: url(mountain.jpg);
+  height: 300px;
+  text-align: center;
+  padding-top: 9%;
+  text-shadow: 2px 2px 3px lightgray;
+}
+body {
+  background-color: gray;
 }
